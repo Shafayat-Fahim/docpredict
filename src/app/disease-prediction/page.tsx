@@ -290,29 +290,6 @@ export default function DiseasePrediction() {
             </div>
           </div>
         )}
-
-        {/* Models Information */}
-        <div className="mt-12 bg-white rounded-lg shadow-lg p-8">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">Algorithms Used</h3>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div>
-              <h4 className="font-semibold text-gray-900 mb-2">🧠 Deep Learning Models</h4>
-              <ul className="text-gray-600 space-y-2">
-                <li>• <strong>CNN:</strong> For image-based analysis (medical imaging)</li>
-                <li>• <strong>LSTM:</strong> For sequential temporal data</li>
-                <li>• <strong>Autoencoders:</strong> For feature extraction</li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold text-gray-900 mb-2">⚙️ Machine Learning Models</h4>
-              <ul className="text-gray-600 space-y-2">
-                <li>• <strong>SVM:</strong> For classification tasks</li>
-                <li>• <strong>Random Forest:</strong> For ensemble predictions</li>
-                <li>• <strong>Gradient Boosting:</strong> For improved accuracy</li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

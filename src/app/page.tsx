@@ -108,12 +108,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-8 mt-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p>© 2025 DocPredict. A healthcare AI research project.</p>
-          <p className="text-sm text-gray-400 mt-2">
-            <a href="https://github.com/Shafayat-Fahim/docpredict" className="hover:text-white">
-              GitHub Repository
-            </a>
-          </p>
+          <p>DocPredict</p>
         </div>
       </footer>
     </div>

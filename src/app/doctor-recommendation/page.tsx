@@ -329,30 +329,6 @@ export default function DoctorRecommendation() {
             )}
           </div>
         </div>
-
-        <div className="mt-12 bg-white rounded-lg shadow-lg p-8">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">How Doctor Matching Works</h3>
-          <div className="grid md:grid-cols-3 gap-6">
-            <div className="p-6 bg-blue-50 rounded-lg">
-              <h4 className="font-semibold text-gray-900 mb-3">🌍 Global City Search</h4>
-              <p className="text-gray-600 text-sm">
-                Search doctors from 23+ cities across 11 countries worldwide.
-              </p>
-            </div>
-            <div className="p-6 bg-green-50 rounded-lg">
-              <h4 className="font-semibold text-gray-900 mb-3">📍 Distance-Based Sorting</h4>
-              <p className="text-gray-600 text-sm">
-                Doctors are sorted by proximity within your selected city, ensuring nearby specialists appear first.
-              </p>
-            </div>
-            <div className="p-6 bg-yellow-50 rounded-lg">
-              <h4 className="font-semibold text-gray-900 mb-3">⭐ Hybrid Scoring</h4>
-              <p className="text-gray-600 text-sm">
-                Combines distance, ratings, availability, and match scores for optimal recommendations.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
 
       {/* Booking Modal */}
